@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="author" content="Proyectos HTML,CSS,JS">
+	<meta name="description" content="Chat">
+	<meta name="keywords" content="Chat, Amigos">
+
+ 	<title>Chat VS</title>
+ 	<link rel="icon" href=".\img\icon.chat.jpg">
+
+ 	<!--link href=".\css\chat.css" type="text/css" rel="stylesheet" media=""-->
+ 	<link href=".\css\bootstrap.css" type="text/css" rel="stylesheet" media="">
+
+</head>
+
+<body>
+
+	<header> 
+
+		<h1 id=bienvenida> ¡¡Bienvenido al Chat VS!! </h1>
+
+	</header>
+
+	<nav>
+		<ul>
+			<li id=canal1><a href="#">Canal 1</a></li>
+			<li id=canal2><a href="#">Canal 2</a></li>
+			<li id=canal3><a href="#">Canal 3</a></li>
+			<li id=canal4><a href="#">Canal 4</a></li>
+		</ul>
+
+	</nav>
+	
+	<section>
+
+		<article>
+			
+			<h2>Diviértete</h2>
+
+			<div id="chat"></div>
+
+			<div id="usuarios"></div>
+			
+	
+			<form action="" id="formularioTexto" name="formularioTexto" method="get">
+
+				<input type="text" name="mensaje" id="mensaje" maxlength = "100" placeholder="Escribe tu mensaje">
+				<input type="submit" id="btnmensaje" name="btnmensaje" value="Enviar">
+
+			</form>
+
+		</article>
+
+
+		<aside>
+
+			<h1>Conéctate al Chat!</h1>
+
+			<form action="" id="formularioNombre" name="formularioNombre" method="get">>
+
+				<h2>Nombre</h2>
+				<input type="text" name="nombre" id="nombre" maxlength = "10" placeholder="Nombre de Usuario">
+				<input type="submit" id="conectar" name="conectar" value="Conectar">
+
+			</form>
+			
+			
+		</aside>
+
+
+	</section>
+
+
+	<script src=".\js\script.js"> </script>
+
+</body>
+
+
+
+<footer>&copy; Chat VS. Todos los derechos reservados.</footer>
+
+</html>

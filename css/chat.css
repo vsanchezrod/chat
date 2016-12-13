@@ -1,0 +1,139 @@
+*{
+	background: black;
+	list-style: none;
+	}
+
+header{
+	position: relative;
+	margin: auto;
+	color: #E4E371;
+	font-family: fantasy;
+	font-size: 80px;
+	width: 1920px;
+	height: 100px;
+	}
+
+#bienvenida{
+	position:absolute;
+	text-align: center;
+	}
+
+nav {
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	margin: 0px auto;
+	width: 1920px;
+	height: 50px;
+	}
+
+nav li{
+	float:left;
+	width: 356px;
+	margin: 0px 2px;
+	height: 50px;
+	color: #E4E371;
+	}
+
+nav a:hover{
+	color: #E4E371;
+	}
+
+nav a:active{
+	color: #F4A220;
+	}
+
+section {
+	position: relative;
+	margin: auto;
+	width: 1920px;
+	height: 1200px;
+	background: none;
+	}
+
+article{
+	position: absolute;
+	width: 1500px;
+	height: 1200px;
+	top: 0px;
+	left: 50px;
+	background: white;
+	}
+
+article h2{
+	position: absolute;
+	font-family: fantasy;
+	color: #E4E371;
+	margin: auto;
+	background: none;
+	text-align: center;
+	}
+
+
+#chat{
+	position: absolute;
+	width: 1200px;
+	height: 1000px;
+	top: 50px;
+	left: 50px;
+	border: 2px solid #E4E371;
+	border-radius: 10%;
+	}	
+
+#usuarios{
+	position: absolute;
+	padding: 10px;
+	width: 185px;
+	height: 800px;
+	top: 100px;
+	right: 30px;
+	background: green;
+	border: 2px solid #E4E371;
+	}
+
+
+article input #mensaje{
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	margin: 5px 0;
+	width: 500px;
+	height: 15px;
+	color: white;
+	}
+
+
+#formularioTexto{
+	position: absolute;
+	left: 75px;
+	bottom: 100px;
+	background: red;
+	}
+
+
+aside {
+	position: absolute;
+	width: 400px;
+	height: 1200px;
+	right: 0;
+	top: 0px;
+	background: blue;
+	}
+
+aside h1{
+	position: absolute;
+	font-family: fantasy;
+	color: #E4E371;
+	margin: auto;
+	background: none;
+	text-align: center;
+	}
+
+
+#formularioNombre{
+	position: absolute;
+	right: 10px;
+	top: 50px;
+	background: blue;
